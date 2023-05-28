@@ -1,5 +1,5 @@
 ---
-- hosts: "all"
+- hosts: "nginx"
   become: true
   vars:
     moto: Hello world!
