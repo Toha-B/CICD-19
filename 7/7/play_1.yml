@@ -3,7 +3,7 @@
   tasks:
   - name: "Unpacking kafka archive" 
     unarchive:
-      src: "https://downloads.apache.org/kafka/3.3.1/kafka-3.3.1-src.tgz"
+      src: "https://downloads.apache.org/kafka/3.4.0/kafka-3.4.0-src.tgz"
       dest: "{{ansible_user_dir}}"
       creates: "{{ansible_user_dir}}/kafka"
       remote_src: yes
