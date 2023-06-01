@@ -7,7 +7,7 @@
       name: tuned
       state: present
   - name: Starting tuned
-    systemd: started
+    systemd: 
       name: tuned
-      enabled: true
+      state: tarted
       masked: no
