@@ -10,4 +10,5 @@
     systemd: 
       name: tuned
       state: tarted
+      enable: true
       masked: no
